@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Paytone One', sans-serif;
+    text-align: center;
+}
+body {
+    background-color: black;
+    color: rgb(167, 167, 167);
+}
+ul>li {
+    margin-bottom: 30px;
+    width: 303px;
+    height: 455px;
+}
+.rick {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgb(88, 88, 88);
+}
+.card {
+    background-color: rgb(153, 145, 145);
+    list-style: none;
+    border: 2px solid;
+    color: black;
+    border-radius: 20px;
+}
+.card:hover {
+    transition: all 0.5s;
+    transform: scale(1.03);
+}
+.card-status {
+    margin-top: 5px;
+    color: black;
+}
+.card-specie {
+    margin-top: 5px;
+    color: black;
+}
+
+.card-origin {
+    margin-top: 5px;
+    color: black;
+}
+
+.card-image {
+    border-radius: 20px;
+}
